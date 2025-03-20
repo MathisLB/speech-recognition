@@ -2,6 +2,6 @@ import subprocess
 import os
 
 current_dir = os.getcwd()
-os.chdir("/content/speechbrain/templates/speech_recognition/Tokenizer")
+os.chdir("speechbrain/templates/speech_recognition/Tokenizer")
 subprocess.run(["python", "train.py", "tokenizer.yaml"])
 os.chdir(current_dir)
