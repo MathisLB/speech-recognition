@@ -17,8 +17,6 @@ if __name__ == "__main__":
 
     subprocess.run([
         "python", source_prepare_script_path,
-        "--data_folder=your_data_folder",
-        "--save_folder=your_save_folder"
     ], check=True)
 
     os.chdir(destination_dir)
