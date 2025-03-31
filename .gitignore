@@ -1,3 +1,4 @@
 speechbrain/
 results/
 modele_perso/
+__pycache__/
