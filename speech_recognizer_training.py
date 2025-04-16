@@ -22,10 +22,7 @@ if __name__ == "__main__":
     os.chdir(destination_dir)
     subprocess.run([
         "python", "train.py", "train.yaml",
-        "--number_of_epochs=1",
         "--batch_size=2",
-        "--enable_add_reverb=False",
-        "--enable_add_noise=False",
         "--device", "cuda",
         "--num_workers=0"
     ], check=True)
